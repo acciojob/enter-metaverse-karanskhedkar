@@ -6,5 +6,6 @@ const alterTags=()=>{
 	}
 	const newHead=document.createElement("h1");
 	newHead.textContent="Entered Metaverse";
+	newHead.setAttribute("id","status");
 	document.body.prepend(newHead)
 }
