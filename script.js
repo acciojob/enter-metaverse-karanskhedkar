@@ -4,9 +4,10 @@ const alterTags=()=>{
 	if(status.textContent==="Entered Metaverse"){
 		return;
 	}else{
-		const newHead=document.createElement("h1");
-		newHead.textContent="Entered Metaverse";
-		newHead.setAttribute("id","status");
-		status.replaceWith(newHead)
+		// const newHead=document.createElement("h1");
+		// newHead.textContent="Entered Metaverse";
+		// newHead.setAttribute("id","status");
+		// status.replaceWith(newHead)
+		status.innerHTML = "<h1>Entered Metaverse</h1>";
 	}
 }
